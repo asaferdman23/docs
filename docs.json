@@ -1,72 +1,80 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mintlify Starter Kit",
+  "name": "Bizzclaw Docs",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
-  },
-  "favicon": "/favicon.svg",
-  "navigation": {
-    "pages": [
-      {
-        "group": "Getting Started",
-        "pages": [
-          "index",
-          "quickstart"
-        ]
-      }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
+    "primary": "#1096D5",
+    "light": "#25B8F8",
+    "dark": "#1096D5"
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "/logo/icon.png",
+    "dark": "/logo/icon.png",
+    "href": "https://bizzclaw.co"
+  },
+  "favicon": "/favicon.ico",
+  "appearance": {
+    "default": "dark"
+  },
+  "background": {
+    "color": {
+      "dark": "#08090a"
+    }
+  },
+  "fonts": {
+    "family": "Inter"
   },
   "navbar": {
     "links": [
-      {
-        "label": "Support",
-        "href": "mailto:support@mintlify.com"
-      }
+      { "label": "Website", "href": "https://bizzclaw.co" },
+      { "label": "Book a demo", "href": "https://cal.com/bizz-claw/15-min" }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://app.mintlify.com"
+      "label": "Try free",
+      "href": "https://agent.bizz-claw.com"
     }
   },
-  "contextual": {
-    "options": [
-      "copy",
-      "view",
-      "chatgpt",
-      "claude",
-      "perplexity",
-      "mcp",
-      "cursor",
-      "vscode"
+  "navigation": {
+    "groups": [
+      {
+        "group": "Getting started",
+        "pages": ["index", "quickstart"]
+      },
+      {
+        "group": "Concepts",
+        "pages": [
+          "concepts/how-it-works",
+          "concepts/approvals",
+          "concepts/memory",
+          "concepts/scheduled-tasks"
+        ]
+      },
+      {
+        "group": "Channels",
+        "pages": ["channels/overview"]
+      },
+      {
+        "group": "Connections",
+        "pages": ["connections/overview"]
+      },
+      {
+        "group": "Trust",
+        "pages": ["security"]
+      }
     ]
   },
   "footer": {
-    "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
-    }
+    "links": [
+      {
+        "header": "Bizzclaw",
+        "items": [
+          { "label": "Website", "href": "https://bizzclaw.co" },
+          { "label": "Privacy", "href": "https://bizzclaw.co/privacy" },
+          { "label": "Terms", "href": "https://bizzclaw.co/terms" },
+          { "label": "Contact", "href": "mailto:support@bizz-claw.com" }
+        ]
+      }
+    ]
   }
 }
